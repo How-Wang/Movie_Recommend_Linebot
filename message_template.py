@@ -137,7 +137,6 @@ choose_type_menu = {
     "contents": [
         {
             "type": "bubble",
-            "backgroundColor": "#BEC5AD",
             "hero": {
                 "type": "image",
                 "url": "https://i.imgur.com/YaRH7lS.png",
@@ -179,7 +178,6 @@ choose_type_menu = {
         {
             "type": "bubble",
             "hero": {
-                "backgroundColor": "#BEC5AD",
                 "type": "image",
                 "url": "https://i.imgur.com/PPPTefX.png",
                 "size": "xxl",
@@ -220,7 +218,6 @@ choose_type_menu = {
         {
             "type": "bubble",
             "hero": {
-                "backgroundColor": "#BEC5AD",
                 "type": "image",
                 "url": "https://i.imgur.com/NaB9gnp.png",
                 "size": "xxl",
@@ -261,7 +258,6 @@ choose_type_menu = {
         {
             "type": "bubble",
             "hero": {
-                "backgroundColor": "#BEC5AD",
                 "type": "image",
                 "url": "https://i.imgur.com/FfXhbv9.png",
                 "size": "xxl",
@@ -274,7 +270,7 @@ choose_type_menu = {
                 "contents": [
                     {
                         "type": "text",
-                        "text": "「當歷史的長河流經蕭索歲月，靈魂不死。」",
+                        "text": "「歷史的長河流經蕭索歲月，唯有靈魂不死。」",
                         "wrap": True,
                         "align": "center",
                     }
