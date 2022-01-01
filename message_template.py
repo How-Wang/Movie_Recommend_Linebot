@@ -141,7 +141,7 @@ choose_type_menu = {
                 "backgroundColor": "#BEC5AD",
                 "type": "image",
                 "url": "https://i.imgur.com/YaRH7lS.png",
-                "size": "md",
+                "size": "xxl",
                 "aspectMode": "fit",
                 "aspectRatio": "1:1"
             },
@@ -153,6 +153,7 @@ choose_type_menu = {
                         "type": "text",
                         "text": "「科幻，不只是突破空間與時間的幻想，更是一場關於人類自我的探究之旅。」",
                         "wrap": True,
+                        "align": "center",
                     }
                 ]
             },
@@ -181,7 +182,7 @@ choose_type_menu = {
                 "backgroundColor": "#BEC5AD",
                 "type": "image",
                 "url": "https://i.imgur.com/PPPTefX.png",
-                "size": "md",
+                "size": "xxl",
                 "aspectMode": "fit",
                 "aspectRatio": "1:1"
             },
@@ -193,6 +194,7 @@ choose_type_menu = {
                         "type": "text",
                         "text": "「愛，使我們更加完整。」",
                         "wrap": True,
+                        "align": "center",
                     }
                 ]
             },
@@ -221,7 +223,7 @@ choose_type_menu = {
                 "backgroundColor": "#BEC5AD",
                 "type": "image",
                 "url": "https://i.imgur.com/NaB9gnp.png",
-                "size": "md",
+                "size": "xxl",
                 "aspectMode": "fit",
                 "aspectRatio": "1:1"
             },
@@ -233,6 +235,7 @@ choose_type_menu = {
                         "type": "text",
                         "text": "「生命就是短暫的一回邂逅。」",
                         "wrap": True,
+                        "align": "center",
                     }
                 ]
             },
@@ -261,7 +264,7 @@ choose_type_menu = {
                 "backgroundColor": "#BEC5AD",
                 "type": "image",
                 "url": "https://i.imgur.com/FfXhbv9.png",
-                "size": "md",
+                "size": "xxl",
                 "aspectMode": "fit",
                 "aspectRatio": "1:1"
             },
@@ -273,6 +276,7 @@ choose_type_menu = {
                         "type": "text",
                         "text": "「當歷史的長河流經蕭索歲月，靈魂不死。」",
                         "wrap": True,
+                        "align": "center",
                     }
                 ]
             },
