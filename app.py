@@ -84,8 +84,8 @@ def webhook_handler():
         if event.source.user_id not in machines:
             machines[event.source.user_id] = create_machine()
 
-        machines[event.source.user_id].get_graph().draw("fsm.png", prog="dot", format="png")
-        send_file(event.source.user_id + "fsm.png", mimetype="image/png")
+        # machines[event.source.user_id].get_graph().draw("fsm.png", prog="dot", format="png")
+        # send_file(event.source.user_id + "fsm.png", mimetype="image/png")
 
         response = machines[event.source.user_id].advance(event)
         if response == False:
