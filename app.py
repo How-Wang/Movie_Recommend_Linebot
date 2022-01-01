@@ -8,92 +8,11 @@ from linebot.exceptions import InvalidSignatureError
 from linebot.models import MessageEvent, TextMessage, TextSendMessage
 
 from fsm import TocMachine
+from machine import create_machine
 from utils import send_text_message
 
 load_dotenv()
 
-
-machine = TocMachine(
-    states=["user","menu","choose_type","introduction","type1","type2","type3","type4","cancel"],
-    transitions=[
-        {
-            "trigger": "advance",
-            "source": "user",
-            "dest": "menu",
-            "conditions": "is_going_to_menu",
-        },
-        {
-            "trigger": "advance",
-            "source": "choose_type",
-            "dest": "type1",
-            "conditions": "is_going_to_type1",
-        },
-        {
-            "trigger": "advance",
-            "source": "choose_type",
-            "dest": "type2",
-            "conditions": "is_going_to_type2",
-        },
-        {
-            "trigger": "advance",
-            "source": "choose_type",
-            "dest": "type3",
-            "conditions": "is_going_to_type3",
-        },
-        {
-            "trigger": "advance",
-            "source": "choose_type",
-            "dest": "type4",
-            "conditions": "is_going_to_type4",
-        },
-        {
-            "trigger": "advance",
-            "source": "menu",
-            "dest": "choose_type",
-            "conditions": "is_going_to_choose_type",
-        },
-        {
-            "trigger": "advance",
-            "source": "menu",
-            "dest": "introduction",
-            "conditions": "is_going_to_introduction",
-        },
-        {
-            "trigger": "advance",
-            "source": "menu",
-            "dest": "cancel",
-            "conditions": "is_going_to_cancel",
-        },
-        {
-            "trigger": "advance",
-            "source": "introduction",
-            "dest": "cancel",
-            "conditions": "is_going_to_cancel",
-        },
-        {
-            "trigger": "advance",
-            "source": ["type1","type2","type3","type4"],
-            "dest": "cancel",
-            "conditions": "is_going_to_cancel",
-        },
-        {
-            "trigger": "advance",
-            "source": "choose_type",
-            "dest": "cancel",
-            "conditions": "is_going_to_cancel",
-        },
-        {
-            "trigger": "advance",
-            "source": ["type1","type2","type3","type4"],
-            "dest": "choose_type",
-            "conditions": "is_going_to_choose_type",
-        },
-        {"trigger": "go_back", "source": ["cancel","introduction","choose_type","type1","type2","type3","type4"], "dest": "user"},
-    ],
-    initial="user",
-    auto_transitions=False,
-    show_conditions=True,
-)
 
 app = Flask(__name__, static_url_path="")
 
@@ -111,6 +30,7 @@ if channel_access_token is None:
 line_bot_api = LineBotApi(channel_access_token)
 parser = WebhookParser(channel_secret)
 
+machines = {}
 
 @app.route("/callback", methods=["POST"])
 def callback():
@@ -160,19 +80,21 @@ def webhook_handler():
             continue
         if not isinstance(event.message.text, str):
             continue
-        print(f"\nFSM STATE: {machine.state}")
-        print(f"REQUEST BODY: \n{body}")
-        response = machine.advance(event)
+
+        if event.source.user_id not in machines:
+            machines[event.source.user_id] = create_machine()
+
+        response = machines[event.source.user_id].advance(event)
         if response == False:
-            send_text_message(event.reply_token, "Not Entering any State")
+            send_text_message(event.reply_token, "輸入錯誤!")
 
     return "OK"
 
 
-@app.route("/show-fsm", methods=["GET"])
-def show_fsm():
-    machine.get_graph().draw("fsm.png", prog="dot", format="png")
-    return send_file("fsm.png", mimetype="image/png")
+# @app.route("/show-fsm", methods=["GET"])
+# def show_fsm():
+#     machine.get_graph().draw("fsm.png", prog="dot", format="png")
+#     return send_file("fsm.png", mimetype="image/png")
 
 
 if __name__ == "__main__":
