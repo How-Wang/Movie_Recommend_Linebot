@@ -9,7 +9,7 @@ menu = {
                 "contents": [
                     {
                         "type": "text",
-                        "text": "歡迎來到主選單",
+                        "text": "歡迎來到 尋影｜電影推薦",
                         "weight": "bold",
                         "align": "center",
                         "size": "lg"
@@ -77,13 +77,13 @@ introduction_message = {
             },
             {
                 "type": "text",
-                "text": "✅　幫助您挑選好電影的工具",
+                "text": "📽　幫助您挑選好電影的工具",
                 "wrap": True,
                 "align": "center"
             },
             {
                 "type": "text",
-                "text": "📽　經典電影 類型推薦",
+                "text": "經典電影 類型推薦",
                 "wrap": True,
                 "align": "center"
             },
@@ -102,12 +102,10 @@ introduction_message = {
             {
                 "type": "text",
                 "text": "🔠　輸入「主選單」開始挑選你想要做什麼",
-                "wrap": True
             },
             {
                 "type": "text",
                 "text": "🔠　根據選擇，我們告訴你推薦的電影",
-                "wrap": True
             },
         ]
     },
@@ -147,17 +145,17 @@ choose_type_menu = {
                 "aspectMode": "fit",
                 "aspectRatio": "square"
             },
-            "body": {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [
-                    {
-                        "type": "text",
-                        "text": "「科幻，不只是突破空間與時間的幻想，更是一場關於人類自我的探究之旅。」",
-                        "wrap": True,
-                    }
-                ]
-            },
+            # "body": {
+            #     "type": "box",
+            #     "layout": "vertical",
+            #     "contents": [
+            #         {
+            #             "type": "text",
+            #             "text": "「科幻，不只是突破空間與時間的幻想，更是一場關於人類自我的探究之旅。」",
+            #             "wrap": True,
+            #         }
+            #     ]
+            # },
             "footer": {
                 "type": "box",
                 "layout": "vertical",
@@ -187,17 +185,17 @@ choose_type_menu = {
                 "aspectMode": "fit",
                 "aspectRatio": "square"
             },
-            "body": {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [
-                    {
-                        "type": "text",
-                        "text": "「愛，使我們更加完整。」",
-                        "wrap": True,
-                    }
-                ]
-            },
+            # "body": {
+            #     "type": "box",
+            #     "layout": "vertical",
+            #     "contents": [
+            #         {
+            #             "type": "text",
+            #             "text": "「愛，使我們更加完整。」",
+            #             "wrap": True,
+            #         }
+            #     ]
+            # },
             "footer": {
                 "type": "box",
                 "layout": "vertical",
@@ -227,17 +225,17 @@ choose_type_menu = {
                 "aspectMode": "fit",
                 "aspectRatio": "square"
             },
-            "body": {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [
-                    {
-                        "type": "text",
-                        "text": "「生命就是短暫的一回邂逅。」",
-                        "wrap": True,
-                    }
-                ]
-            },
+            # "body": {
+            #     "type": "box",
+            #     "layout": "vertical",
+            #     "contents": [
+            #         {
+            #             "type": "text",
+            #             "text": "「生命就是短暫的一回邂逅。」",
+            #             "wrap": True,
+            #         }
+            #     ]
+            # },
             "footer": {
                 "type": "box",
                 "layout": "vertical",
@@ -267,17 +265,17 @@ choose_type_menu = {
                 "aspectMode": "fit",
                 "aspectRatio": "square"
             },
-            "body": {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [
-                    {
-                        "type": "text",
-                        "text": "「當歷史的長河流經蕭索歲月，靈魂不死。」",
-                        "wrap": True,
-                    }
-                ]
-            },
+            # "body": {
+            #     "type": "box",
+            #     "layout": "vertical",
+            #     "contents": [
+            #         {
+            #             "type": "text",
+            #             "text": "「當歷史的長河流經蕭索歲月，靈魂不死。」",
+            #             "wrap": True,
+            #         }
+            #     ]
+            # },
             "footer": {
                 "type": "box",
                 "layout": "vertical",
@@ -399,8 +397,8 @@ cancel_menu = {
             },
             {
                 "type": "text",
-                "text": "「散場後，我們更忙，因為大銀幕投射在心靈的光，才正要開始釋放我們的需索…」期待與您的下次相會，掰掰！",
-                "size": "lg",
+                "text": "散場後，我們更忙，因為大銀幕投射在心靈的光，才正要開始釋放我們的需索…",
+                "size": "md",
                 "wrap": True,
                 "margin": "lg",
                 "align": "center"
