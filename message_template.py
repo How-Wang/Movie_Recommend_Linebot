@@ -78,29 +78,25 @@ introduction_message = {
             {
                 "type": "text",
                 "text": "✅　幫助您挑選好電影的工具",
-                "wrap": True
+                "wrap": True,
+                "align": "center"
             },
             {
                 "type": "text",
                 "text": "📽　經典電影 類型推薦",
-                "wrap": True
+                "wrap": True,
+                "align": "center"
             },
             {
                 "type": "text",
                 "text": "▶　告訴我你想看「哪種」",
-                "wrap": True
+                "wrap": True,
+                "align": "center"
             },
             {
                 "type": "text",
-                "text": "▶　推薦您就該看「哪部」",
-                "wrap": True
-            },
-            {
-                "type": "text",
-                "text": "使用說明",
-                "weight": "bold",
-                "size": "lg",
-                "margin": "lg",
+                "text": "▶　推薦您應該看「哪部」",
+                "wrap": True,
                 "align": "center"
             },
             {
@@ -149,7 +145,18 @@ choose_type_menu = {
                 "url": "https://i.imgur.com/YaRH7lS.png",
                 "size": "full",
                 "aspectMode": "fit",
-                "aspectRatio": "1.25:1"
+                "aspectRatio": "square"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "「科幻，不只是突破空間與時間的幻想，更是一場關於人類自我的探究之旅。」",
+                        "wrap": True,
+                    }
+                ]
             },
             "footer": {
                 "type": "box",
@@ -178,7 +185,18 @@ choose_type_menu = {
                 "url": "https://i.imgur.com/PPPTefX.png",
                 "size": "full",
                 "aspectMode": "fit",
-                "aspectRatio": "1.25:1"
+                "aspectRatio": "square"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "「愛，使我們更加完整。」",
+                        "wrap": True,
+                    }
+                ]
             },
             "footer": {
                 "type": "box",
@@ -207,7 +225,18 @@ choose_type_menu = {
                 "url": "https://i.imgur.com/NaB9gnp.png",
                 "size": "full",
                 "aspectMode": "fit",
-                "aspectRatio": "1.25:1"
+                "aspectRatio": "square"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "「生命就是短暫的一回邂逅。」",
+                        "wrap": True,
+                    }
+                ]
             },
             "footer": {
                 "type": "box",
@@ -236,7 +265,18 @@ choose_type_menu = {
                 "url": "https://i.imgur.com/FfXhbv9.png",
                 "size": "full",
                 "aspectMode": "fit",
-                "aspectRatio": "1.25:1"
+                "aspectRatio": "square"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "「當歷史的長河流經蕭索歲月，靈魂不死。」",
+                        "wrap": True,
+                    }
+                ]
             },
             "footer": {
                 "type": "box",
@@ -273,7 +313,7 @@ show_movie = {
                 "contents": [
                     {
                         "type": "text",
-                        "text": "🎞向您推薦的電影："
+                        "text": "🎞尋影 向您推薦的電影："
                     }
                 ]
             },
@@ -285,6 +325,7 @@ show_movie = {
                 "size": "full"
             },
             "body": {
+                "wrap": True,
                 "backgroundColor": "#D1D9D9",
                 "type": "box",
                 "layout": "vertical",
@@ -326,7 +367,7 @@ show_movie = {
                         "type": "button",
                         "action": {
                             "type": "message",
-                            "label": "取消操作",
+                            "label": "好欸！我要去看這部電影了❤︎",
                             "text": "取消操作"
                         },
                         "height": "md",
@@ -342,50 +383,48 @@ show_movie = {
 }
 
 cancel_menu = {
-  # "type": "carousel",
-  # "content":
-  "type": "bubble",
-  "size": "giga",
-  "body": {
-    "type": "box",
-    "layout": "vertical",
-    "contents": [
-      {
-        "type": "text",
-        "text": "祝你觀影愉快😎",
-        "weight": "bold",
-        "size": "xl",
-        "margin": "lg",
-        "align": "center"
-      },
-      {
-        "type": "text",
-        "text": "請點擊按鈕返回主選單，我們很期待您的下次使用",
-        "size": "lg",
-        "wrap": True,
-        "margin": "lg",
-        "align": "center"
-      }
-    ]
-  },
-  "footer": {
-    "type": "box",
-    "layout": "vertical",
-    "contents": [
-      {
-        "type": "button",
-        "style": "primary",
-        "action": {
-          "type": "message",
-          "label": "返回主選單",
-          "text": "主選單"
-        }
-      }
-    ]
-  },
-  "styles": {
+    "type": "bubble",
+    "size": "giga",
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "text",
+                "text": "祝你觀影愉快😎",
+                "weight": "bold",
+                "size": "xl",
+                "margin": "xl",
+                "align": "center"
+            },
+            {
+                "type": "text",
+                "text": "「散場後，我們更忙，因為大銀幕投射在心靈的光，才正要開始釋放我們的需索…」期待與您的下次相會，掰掰！",
+                "size": "lg",
+                "wrap": True,
+                "margin": "lg",
+                "align": "center"
+            }
+        ]
+    },
     "footer": {
-      "separator": True
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                    "type": "message",
+                    "label": "返回主選單",
+                    "text": "主選單"
+                }
+            }
+        ]
+    },
+    "styles": {
+        "footer": {
+            "separator": True
+        }
     }
-  }
 }
