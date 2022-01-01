@@ -143,7 +143,7 @@ choose_type_menu = {
                 "url": "https://i.imgur.com/YaRH7lS.png",
                 "size": "full",
                 "aspectMode": "fit",
-                "aspectRatio": "square"
+                "aspectRatio": "1:1"
             },
             # "body": {
             #     "type": "box",
@@ -183,7 +183,7 @@ choose_type_menu = {
                 "url": "https://i.imgur.com/PPPTefX.png",
                 "size": "full",
                 "aspectMode": "fit",
-                "aspectRatio": "square"
+                "aspectRatio": "1:1"
             },
             # "body": {
             #     "type": "box",
@@ -223,7 +223,7 @@ choose_type_menu = {
                 "url": "https://i.imgur.com/NaB9gnp.png",
                 "size": "full",
                 "aspectMode": "fit",
-                "aspectRatio": "square"
+                "aspectRatio": "1:1"
             },
             # "body": {
             #     "type": "box",
@@ -263,7 +263,7 @@ choose_type_menu = {
                 "url": "https://i.imgur.com/FfXhbv9.png",
                 "size": "full",
                 "aspectMode": "fit",
-                "aspectRatio": "square"
+                "aspectRatio": "1:1"
             },
             # "body": {
             #     "type": "box",
