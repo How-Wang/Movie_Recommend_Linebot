@@ -7,7 +7,6 @@ from linebot import LineBotApi, WebhookParser
 from linebot.exceptions import InvalidSignatureError
 from linebot.models import MessageEvent, TextMessage, TextSendMessage
 
-from fsm import TocMachine
 from machine import create_machine
 from utils import send_text_message
 
@@ -83,9 +82,6 @@ def webhook_handler():
 
         if event.source.user_id not in machines:
             machines[event.source.user_id] = create_machine()
-
-        # machines[event.source.user_id].get_graph().draw("fsm.png", prog="dot", format="png")
-        # send_file(event.source.user_id + "fsm.png", mimetype="image/png")
 
         response = machines[event.source.user_id].advance(event)
         if response == False:
