@@ -1,0 +1,221 @@
+{
+    "科幻":[
+        {
+            "Chinese_name":"星際效應",
+            "picture":"https://i.imgur.com/AupXA9i.png",
+            "year":"2014"
+        },
+        {
+            "Chinese_name":"銀翼殺手2049" ,
+            "picture":"https://i.imgur.com/DwwwUhA.jpg",
+            "year":"2017"
+        },
+        {
+            "Chinese_name":"駭客任務" ,
+            "picture":"https://i.imgur.com/R2eQPU1.jpg",
+            "year":"1999"
+        },
+        {
+            "Chinese_name":"沙丘" ,
+            "picture":"https://i.imgur.com/MEasBox.png",
+            "year":"2021"
+        },
+        {
+            "Chinese_name":"普羅米修斯" ,
+            "picture":"https://i.imgur.com/jCoaqtC.png",
+            "year":"2017"
+        },
+        {
+            "Chinese_name":"絕地救援" ,
+            "picture":"https://i.imgur.com/DxP4Iso.png",
+            "year":"2015"
+        },
+        {
+            "Chinese_name":"異星入境" ,
+            "picture":"https://i.imgur.com/KSxdXNV.png",
+            "year":"2016"
+        }
+    ],
+    "愛情":[
+        {
+            "Chinese_name":"那些年我們一起追的女孩",
+            "picture":"https://i.imgur.com/dq9rCgt.png",
+            "year":"2011"
+        },
+        {
+            "Chinese_name":"七月與安生" ,
+            "picture":"https://i.imgur.com/h2Y8X1n.png",
+            "year":"2016"
+        },
+        {
+            "Chinese_name":"後來的我們" ,
+            "picture":"https://i.imgur.com/bIdGCfj.png",
+            "year":"2018"
+        },
+        {
+            "Chinese_name":"樂來樂愛你" ,
+            "picture":"https://i.imgur.com/p2uNtun.png",
+            "year":"2016"
+        },
+        {
+            "Chinese_name":"以你的名字呼喚我" ,
+            "picture":"https://i.imgur.com/vzR9Jgu.png",
+            "year":"2017"
+        },
+        {
+            "Chinese_name":"花神咖啡館" ,
+            "picture":"https://i.imgur.com/vMw0Gym.png",
+            "year":"2011"
+        },
+        {
+            "Chinese_name":"麥特與麥斯" ,
+            "picture":"https://i.imgur.com/6ZL5p1G.png",
+            "year":"2018"
+        },
+        {
+            "Chinese_name":"午夜巴黎" ,
+            "picture":"https://i.imgur.com/18dWWnh.png",
+            "year":"2013"
+        },
+        {
+            "Chinese_name":"戀夏500日",
+            "picture":"https://i.imgur.com/PiW3UjF.png",
+            "year":"2009"
+        },
+        {
+            "Chinese_name":"真愛每一天" ,
+            "picture":"https://i.imgur.com/bUTpKx3.png",
+            "year":"2013"
+        },
+        {
+            "Chinese_name":"你的名字" ,
+            "picture":"https://i.imgur.com/COYwyUo.png",
+            "year":"2016"
+        },
+        {
+            "Chinese_name":"那天以後" ,
+            "picture":"https://i.imgur.com/FORuzrD.png",
+            "year":"2017"
+        }
+    ],
+    "劇情":[
+        {
+            "Chinese_name":"郊遊",
+            "picture":"https://i.imgur.com/6NIGbhf.png",
+            "year":"2013"
+        },
+        {
+            "Chinese_name":"陽光普照" ,
+            "picture":"https://i.imgur.com/63cBWPu.png",
+            "year":"2020"
+        },
+        {
+            "Chinese_name":"大佛普拉斯" ,
+            "picture":"https://i.imgur.com/3pKx89v.png",
+            "year":"2017"
+        },
+        {
+            "Chinese_name":"白日焰火" ,
+            "picture":"https://i.imgur.com/eByNLQQ.png",
+            "year":"2014"
+        },
+        {
+            "Chinese_name":"鳥人" ,
+            "picture":"https://i.imgur.com/kCOsaHB.png",
+            "year":"2014"
+        },
+        {
+            "Chinese_name":"黑暗騎士" ,
+            "picture":"https://i.imgur.com/6zVlrIl.png",
+            "year":"2008"
+        },
+        {
+            "Chinese_name":"控制" ,
+            "picture":"https://i.imgur.com/V66p72I.png",
+            "year":"2014"
+        },
+        {
+            "Chinese_name":"教父",
+            "picture":"https://i.imgur.com/X1PaXhm.png",
+            "year":"1972"
+        },
+        {
+            "Chinese_name":"她們" ,
+            "picture":"https://i.imgur.com/XyMrl14.png",
+            "year":"2019"
+        },
+        {
+            "Chinese_name":"瘋狂麥斯 憤怒道" ,
+            "picture":"https://i.imgur.com/L5H2Vqi.png",
+            "year":"2015"
+        },
+        {
+            "Chinese_name":"痛苦與榮耀" ,
+            "picture":"https://i.imgur.com/6HSMD1O.png",
+            "year":"2019"
+        },
+        {
+            "Chinese_name":"黑色追緝令" ,
+            "picture":"https://i.imgur.com/aVs4Qz4.png",
+            "year":"1994"
+        },
+        {
+            "Chinese_name":"年少時代" ,
+            "picture":"https://i.imgur.com/JZZuOTd.png",
+            "year":"2014"
+        },
+        {
+            "Chinese_name":"小丑" ,
+            "picture":"https://i.imgur.com/kSytN08.png",
+            "year":"2019"
+        },
+        {
+            "Chinese_name":"德州巴黎",
+            "picture":"https://i.imgur.com/WmyN1w2.png",
+            "year":"1984"
+        },
+        {
+            "Chinese_name":"雙面勞倫斯" ,
+            "picture":"https://i.imgur.com/rpDHwDt.png",
+            "year":"2012"
+        },
+        {
+            "Chinese_name":"寄生上流" ,
+            "picture":"https://i.imgur.com/7RVOooc.png",
+            "year":"2019"
+        },
+        {
+            "Chinese_name":"神隱少女" ,
+            "picture":"https://i.imgur.com/1caYLbJ.png",
+            "year":"2001"
+        },
+        {
+            "Chinese_name":"魔戒" ,
+            "picture":"https://i.imgur.com/BWYby1U.png",
+            "year":"2001"
+        }
+    ],
+    "歷史":[
+        {
+            "Chinese_name":"一代宗師",
+            "picture":"https://i.imgur.com/ZbRcdxD.png",
+            "year":"2013"
+        },
+        {
+            "Chinese_name":"狄仁傑之通天帝國" ,
+            "picture":"https://i.imgur.com/oP8Di5r.png",
+            "year":"2010"
+        },
+        {
+            "Chinese_name":"神鬼戰士" ,
+            "picture":"https://i.imgur.com/Tsv3JWv.png",
+            "year":"2001"
+        },
+        {
+            "Chinese_name":"亂" ,
+            "picture":"https://i.imgur.com/TPtodJv.png",
+            "year":"1985"
+        }
+    ]
+}
+
