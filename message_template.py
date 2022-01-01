@@ -141,21 +141,21 @@ choose_type_menu = {
                 "backgroundColor": "#BEC5AD",
                 "type": "image",
                 "url": "https://i.imgur.com/YaRH7lS.png",
-                "size": "full",
+                "size": "md",
                 "aspectMode": "fit",
                 "aspectRatio": "1:1"
             },
-            # "body": {
-            #     "type": "box",
-            #     "layout": "vertical",
-            #     "contents": [
-            #         {
-            #             "type": "text",
-            #             "text": "「科幻，不只是突破空間與時間的幻想，更是一場關於人類自我的探究之旅。」",
-            #             "wrap": True,
-            #         }
-            #     ]
-            # },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "「科幻，不只是突破空間與時間的幻想，更是一場關於人類自我的探究之旅。」",
+                        "wrap": True,
+                    }
+                ]
+            },
             "footer": {
                 "type": "box",
                 "layout": "vertical",
@@ -181,21 +181,21 @@ choose_type_menu = {
                 "backgroundColor": "#BEC5AD",
                 "type": "image",
                 "url": "https://i.imgur.com/PPPTefX.png",
-                "size": "full",
+                "size": "md",
                 "aspectMode": "fit",
                 "aspectRatio": "1:1"
             },
-            # "body": {
-            #     "type": "box",
-            #     "layout": "vertical",
-            #     "contents": [
-            #         {
-            #             "type": "text",
-            #             "text": "「愛，使我們更加完整。」",
-            #             "wrap": True,
-            #         }
-            #     ]
-            # },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "「愛，使我們更加完整。」",
+                        "wrap": True,
+                    }
+                ]
+            },
             "footer": {
                 "type": "box",
                 "layout": "vertical",
@@ -221,21 +221,21 @@ choose_type_menu = {
                 "backgroundColor": "#BEC5AD",
                 "type": "image",
                 "url": "https://i.imgur.com/NaB9gnp.png",
-                "size": "full",
+                "size": "md",
                 "aspectMode": "fit",
                 "aspectRatio": "1:1"
             },
-            # "body": {
-            #     "type": "box",
-            #     "layout": "vertical",
-            #     "contents": [
-            #         {
-            #             "type": "text",
-            #             "text": "「生命就是短暫的一回邂逅。」",
-            #             "wrap": True,
-            #         }
-            #     ]
-            # },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "「生命就是短暫的一回邂逅。」",
+                        "wrap": True,
+                    }
+                ]
+            },
             "footer": {
                 "type": "box",
                 "layout": "vertical",
@@ -261,21 +261,21 @@ choose_type_menu = {
                 "backgroundColor": "#BEC5AD",
                 "type": "image",
                 "url": "https://i.imgur.com/FfXhbv9.png",
-                "size": "full",
+                "size": "md",
                 "aspectMode": "fit",
                 "aspectRatio": "1:1"
             },
-            # "body": {
-            #     "type": "box",
-            #     "layout": "vertical",
-            #     "contents": [
-            #         {
-            #             "type": "text",
-            #             "text": "「當歷史的長河流經蕭索歲月，靈魂不死。」",
-            #             "wrap": True,
-            #         }
-            #     ]
-            # },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "「當歷史的長河流經蕭索歲月，靈魂不死。」",
+                        "wrap": True,
+                    }
+                ]
+            },
             "footer": {
                 "type": "box",
                 "layout": "vertical",
