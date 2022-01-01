@@ -137,8 +137,8 @@ choose_type_menu = {
     "contents": [
         {
             "type": "bubble",
+            "backgroundColor": "#BEC5AD",
             "hero": {
-                "backgroundColor": "#BEC5AD",
                 "type": "image",
                 "url": "https://i.imgur.com/YaRH7lS.png",
                 "size": "xxl",
