@@ -68,7 +68,7 @@ def webhook_handler():
     body = request.get_data(as_text=True)
     app.logger.info(f"Request body: {body}")
 
-    create_machine().get_graph().draw("fsm.png", prog="dot", format="png")
+    # create_machine().get_graph().draw("fsm.png", prog="dot", format="png")
 
     # parse webhook body
     try:
@@ -92,7 +92,8 @@ def webhook_handler():
         response = machines[event.source.user_id].advance(event)
         if response == False:
             send_text_message(event.reply_token, "輸入錯誤!")
-        
+            
+        machines[event.source.user_id].get_graph().draw("fsm.png", prog="dot", format="png")
         # create_machine().get_graph().draw("fsm.png", prog="dot", format="png")
         # send_file("fsm.png", mimetype="image/png")
 
