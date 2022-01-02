@@ -83,6 +83,9 @@ def webhook_handler():
         if event.source.user_id not in machines:
             machines[event.source.user_id] = create_machine()
 
+        machines[event.source.user_id].get_graph().draw("fsm.png", prog="dot", format="png")
+        # send_file("fsm.png", mimetype="image/png")
+
         response = machines[event.source.user_id].advance(event)
         if response == False:
             send_text_message(event.reply_token, "輸入錯誤!")
@@ -90,10 +93,10 @@ def webhook_handler():
     return "OK"
 
 
-@app.route("/show-fsm", methods=["GET"])
-def show_fsm():
-    machine.get_graph().draw("fsm.png", prog="dot", format="png")
-    return send_file("fsm.png", mimetype="image/png")
+# @app.route("/show-fsm", methods=["GET"])
+# def show_fsm():
+#     machine[0].get_graph().draw("fsm.png", prog="dot", format="png")
+#     return send_file("fsm.png", mimetype="image/png")
 
 
 if __name__ == "__main__":
