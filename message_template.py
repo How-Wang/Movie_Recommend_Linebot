@@ -16,6 +16,18 @@ menu = {
                     }
                 ]
             },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "快點擊以下的功能，\n看看有什麼驚奇的新發現吧！",
+                        "wrap": True,
+                        "align": "center",
+                    }
+                ]
+            },
             "footer": {
                 "type": "box",
                 "layout": "vertical",
@@ -63,18 +75,24 @@ menu = {
 introduction_message = {
     "type": "bubble",
     "size": "giga",
+    "header": {
+        "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "功能介紹",
+                        "weight": "bold",
+                        "size": "lg",
+                        "margin": "lg",
+                        "align": "center"
+                    },
+                ]
+    },
     "body": {
         "type": "box",
         "layout": "vertical",
         "contents": [
-            {
-                "type": "text",
-                "text": "功能介紹",
-                "weight": "bold",
-                "size": "lg",
-                "margin": "lg",
-                "align": "center"
-            },
             {
                 "type": "text",
                 "text": "📽　幫助您挑選好電影的工具",
@@ -83,7 +101,7 @@ introduction_message = {
             },
             {
                 "type": "text",
-                "text": "經典電影 類型推薦",
+                "text": "　經典電影　類型推薦",
                 "wrap": True,
                 "align": "center"
             },
@@ -150,7 +168,7 @@ choose_type_menu = {
                 "contents": [
                     {
                         "type": "text",
-                        "text": "「科幻，不只是突破空間與時間的幻想，更是一場關於人類自我的探究之旅。」",
+                        "text": "「科幻電影，\n不只是突破空間與時間的幻想，\n更是一場關於人類自我的探究之旅。」",
                         "wrap": True,
                         "align": "center",
                     }
@@ -190,7 +208,7 @@ choose_type_menu = {
                 "contents": [
                     {
                         "type": "text",
-                        "text": "「愛，使我們更加完整。」",
+                        "text": "「因為愛，\n使我們彼此更加完整。」",
                         "wrap": True,
                         "align": "center",
                     }
@@ -270,7 +288,7 @@ choose_type_menu = {
                 "contents": [
                     {
                         "type": "text",
-                        "text": "「歷史的長河流經蕭索歲月，唯有靈魂不死。」",
+                        "text": "「歷史的長河流經蕭索歲月，\n唯有靈魂不死。」",
                         "wrap": True,
                         "align": "center",
                     }
@@ -311,7 +329,8 @@ show_movie = {
                 "contents": [
                     {
                         "type": "text",
-                        "text": "🎞尋影 向您推薦的電影："
+                        "text": "🎞尋影 向您推薦的電影為",
+                        "adjustMode" : "shrink-to-fit"
                     }
                 ]
             },
