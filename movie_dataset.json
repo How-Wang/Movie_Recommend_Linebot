@@ -34,6 +34,56 @@
             "Chinese_name":"異星入境" ,
             "picture":"https://i.imgur.com/KSxdXNV.png",
             "year":"2016"
+        },
+        {
+            "Chinese_name":"地心引力",
+            "picture":"https://i.imgur.com/jrk1sP2.png",
+            "year":"2013"
+        },
+        {
+            "Chinese_name":"全面啟動" ,
+            "picture":"https://i.imgur.com/yDG6uqi.png",
+            "year":"2010"
+        },
+        {
+            "Chinese_name":"天能" ,
+            "picture":"https://i.imgur.com/XIMcn10.png",
+            "year":"2020"
+        },
+        {
+            "Chinese_name":"銀翼殺手" ,
+            "picture":"https://i.imgur.com/vM2PK3h.png",
+            "year":"1982"
+        },
+        {
+            "Chinese_name":"2001太空漫遊" ,
+            "picture":"https://i.imgur.com/kBXpeLp.png",
+            "year":"1968"
+        },
+        {
+            "Chinese_name":"異形" ,
+            "picture":"https://i.imgur.com/35UqhmH.png",
+            "year":"1979"
+        },
+        {
+            "Chinese_name":"阿凡達" ,
+            "picture":"https://i.imgur.com/geR104F.png",
+            "year":"2009"
+        },
+        {
+            "Chinese_name":"駭客任務：復活",
+            "picture":"https://i.imgur.com/GHBPC4M.png",
+            "year":"2021"
+        },
+        {
+            "Chinese_name":"哈利波特：死神的聖物" ,
+            "picture":"https://i.imgur.com/aIpykHJ.png",
+            "year":"2011"
+        },
+        {
+            "Chinese_name":"哈利波特：阿茲卡班的逃犯" ,
+            "picture":"https://i.imgur.com/sV3LRWL.png",
+            "year":"2004"
         }
     ],
     "愛情":[
@@ -96,6 +146,76 @@
             "Chinese_name":"那天以後" ,
             "picture":"https://i.imgur.com/FORuzrD.png",
             "year":"2017"
+        },
+        {
+            "Chinese_name":"秒速五公分",
+            "picture":"https://i.imgur.com/3VTKiMm.png",
+            "year":"2007"
+        },
+        {
+            "Chinese_name":"水底情深" ,
+            "picture":"https://i.imgur.com/37pygPN.png",
+            "year":"2017"
+        },
+        {
+            "Chinese_name":"愛在黎明破曉時" ,
+            "picture":"https://i.imgur.com/cySQqy6.png",
+            "year":"1995"
+        },
+        {
+            "Chinese_name":"愛在日落巴黎時" ,
+            "picture":"https://i.imgur.com/IXaNV7y.png",
+            "year":"2004"
+        },
+        {
+            "Chinese_name":"愛在午夜希臘時" ,
+            "picture":"https://i.imgur.com/BFiUIXj.png",
+            "year":"2013"
+        },
+        {
+            "Chinese_name":"航站情緣" ,
+            "picture":"https://i.imgur.com/vGkhnZz.png",
+            "year":"2004"
+        },
+        {
+            "Chinese_name":"月升冒險王國" ,
+            "picture":"https://i.imgur.com/q0mAoBV.png",
+            "year":"2012"
+        },
+        {
+            "Chinese_name":"雨天·紐約",
+            "picture":"https://i.imgur.com/C1AluUH.png",
+            "year":"2019"
+        },
+        {
+            "Chinese_name":"重慶森林" ,
+            "picture":"https://i.imgur.com/KbMGu2t.png",
+            "year":"1994"
+        },
+        {
+            "Chinese_name":"駭客任務" ,
+            "picture":"https://i.imgur.com/R2eQPU1.jpg",
+            "year":"1999"
+        },
+        {
+            "Chinese_name":"花樣年華" ,
+            "picture":"https://i.imgur.com/tM0dcDG.png",
+            "year":"2000"
+        },
+        {
+            "Chinese_name":"愛情萬歲" ,
+            "picture":"https://i.imgur.com/qBByGq3.png",
+            "year":"1994"
+        },
+        {
+            "Chinese_name":"海角七號" ,
+            "picture":"https://i.imgur.com/UN0Pr7W.png",
+            "year":"2008"
+        },
+        {
+            "Chinese_name":"大話西遊" ,
+            "picture":"https://i.imgur.com/gCxKG8D.png",
+            "year":"1995"
         }
     ],
     "劇情":[
@@ -193,6 +313,31 @@
             "Chinese_name":"魔戒" ,
             "picture":"https://i.imgur.com/BWYby1U.png",
             "year":"2001"
+        },
+        {
+            "Chinese_name":"燃燒烈愛",
+            "picture":"https://i.imgur.com/eMTkEE7.png",
+            "year":"2018"
+        },
+        {
+            "Chinese_name":"歡迎來到布達佩斯大飯店" ,
+            "picture":"https://i.imgur.com/Bs7naoz.png",
+            "year":"2014"
+        },
+        {
+            "Chinese_name":"桃姐" ,
+            "picture":"https://i.imgur.com/5nfWNYp.png",
+            "year":"2011"
+        },
+        {
+            "Chinese_name":"功夫" ,
+            "picture":"https://i.imgur.com/ewReJD8.png",
+            "year":"2004"
+        },
+        {
+            "Chinese_name":"你的臉" ,
+            "picture":"https://i.imgur.com/I12d9VO.png",
+            "year":"2018"
         }
     ],
     "歷史":[
@@ -215,6 +360,96 @@
             "Chinese_name":"亂" ,
             "picture":"https://i.imgur.com/TPtodJv.png",
             "year":"1985"
+        },
+        {
+            "Chinese_name":"賽德克巴萊",
+            "picture":"https://i.imgur.com/LuuiU0k.png",
+            "year":"2012"
+        },
+        {
+            "Chinese_name":"東邪西毒" ,
+            "picture":"https://i.imgur.com/L5We4BV.png",
+            "year":"1994"
+        },
+        {
+            "Chinese_name":"投名狀" ,
+            "picture":"https://i.imgur.com/hBj8ZW7.png",
+            "year":"2007"
+        },
+        {
+            "Chinese_name":"色戒" ,
+            "picture":"https://i.imgur.com/rLrDcDI.png",
+            "year":"2007"
+        },
+        {
+            "Chinese_name":"神鬼獵人" ,
+            "picture":"https://i.imgur.com/lAYXXSK.png",
+            "year":"2015"
+        },
+        {
+            "Chinese_name":"惡棍特工" ,
+            "picture":"https://i.imgur.com/kvZfvjm.png",
+            "year":"2009"
+        },
+        {
+            "Chinese_name":"王者天下" ,
+            "picture":"https://i.imgur.com/uth7BPb.png",
+            "year":"2005"
+        },
+        {
+            "Chinese_name":"1917",
+            "picture":"https://i.imgur.com/3oCKjEj.png",
+            "year":"2020"
+        },
+        {
+            "Chinese_name":"間諜橋" ,
+            "picture":"https://i.imgur.com/AZdfhZb.png",
+            "year":"2015"
+        },
+        {
+            "Chinese_name":"最黑暗的時刻" ,
+            "picture":"https://i.imgur.com/JGmjeq9.png",
+            "year":"2017"
+        },
+        {
+            "Chinese_name":"王者之聲" ,
+            "picture":"https://i.imgur.com/Z4EijNw.png",
+            "year":"2010"
+        },
+        {
+            "Chinese_name":"悲慘世界" ,
+            "picture":"https://i.imgur.com/cKabIfh.png",
+            "year":"2012"
+        },
+        {
+            "Chinese_name":"影" ,
+            "picture":"https://i.imgur.com/ephIN4K.png",
+            "year":"2018"
+        },
+        {
+            "Chinese_name":"國王" ,
+            "picture":"https://i.imgur.com/TVDDFj0.png",
+            "year":"2019"
+        },
+        {
+            "Chinese_name":"辛德勒的名單",
+            "picture":"https://i.imgur.com/6XZhRNq.png",
+            "year":"1993"
+        },
+        {
+            "Chinese_name":"竊聽風暴" ,
+            "picture":"https://i.imgur.com/Laz5Dmg.png",
+            "year":"2006"
+        },
+        {
+            "Chinese_name":"風起" ,
+            "picture":"https://i.imgur.com/t6Bay97.png",
+            "year":"2013"
+        },
+        {
+            "Chinese_name":"殺人回憶" ,
+            "picture":"https://i.imgur.com/KUA2Gni.png",
+            "year":"2003"
         }
     ]
 }
