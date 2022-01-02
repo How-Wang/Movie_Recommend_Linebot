@@ -1,11 +1,14 @@
 # 電影推薦 Linebot 聊天機器人
 ## 功能介紹
 世界上的電影越來越多，五花八門、眼花撩亂😵‍💫
+
 🎥就讓電影推薦機器人來幫助你，一步步找出最適合你的電影吧！
 
 👇請先幫我加入好友👇
 
-![](https://i.imgur.com/RG7BOZZ.png)
+<p align="center">
+      <img src="https://i.imgur.com/RG7BOZZ.png"/>
+</p>
 
 ## Demo
 
@@ -15,14 +18,13 @@
 
 **此時可以選擇**
 1. **電影分類推薦**
-    <p align="center">
-          <img src="https://i.imgur.com/ur14s6l.jpg" width="300" />
+<p align="center">
+      <img src="https://i.imgur.com/ur14s6l.jpg" width="300" />
+
 點選**你想要看**的電影種類
 
 <p align="center">
       <img src="https://i.imgur.com/8zqOV8z.jpg" width="300" />
-</p>
-<p align="center">
       <img src="https://i.imgur.com/LMNckBE.jpg" width="300" />
 </p>
     - 如果不喜歡目前的電影，可以繼續選擇
@@ -49,4 +51,5 @@
 ## Reference
 
 [TOC-Project-2020](https://github.com/NCKU-CCS/TOC-Project-2020) ❤️ [@NCKU-CCS](https://github.com/NCKU-CCS)
+[電影推薦 提供者](https://www.instagram.com/seeking_film_review/)
 
