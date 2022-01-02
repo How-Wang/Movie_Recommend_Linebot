@@ -12,7 +12,7 @@ menu = {
                         "text": "歡迎來到 尋影｜電影推薦",
                         "weight": "bold",
                         "align": "center",
-                        "size": "lg"
+                        "size": "xxl",
                     }
                 ]
             },
@@ -24,6 +24,7 @@ menu = {
                         "type": "text",
                         "text": "快點擊以下的功能，\n看看有什麼驚奇的新發現吧！",
                         "wrap": True,
+                        "size": "lg",
                         "align": "center",
                     }
                 ]
@@ -39,8 +40,9 @@ menu = {
                           "label": "電影分類推薦",
                           "text": "電影分類推薦"
                         },
+                        "size": "lg",
                         "height": "md",
-                        "color": "#45E696",
+                        "color": "#FFBF48",
                         "style": "primary"
                     },
                     {
@@ -50,8 +52,9 @@ menu = {
                             "label": "詳細使用規則",
                             "text": "詳細使用規則"
                         },
+                        "size": "lg",
                         "height": "md",
-                        "color": "#59FFE9",
+                        "color": "#BF8F36",
                         "style": "primary"
                     },
                     {
@@ -61,12 +64,13 @@ menu = {
                             "label": "取消操作",
                             "text": "取消操作"
                         },
+                        "size": "lg",
                         "height": "md",
-                        "color": "#3DCAF2",
+                        "color": "#805F24",
                         "style": "primary"
                     }
                 ],
-                "spacing": "lg"
+                "spacing": "md"
             }
         }
     ]
@@ -83,7 +87,7 @@ introduction_message = {
                         "type": "text",
                         "text": "功能介紹",
                         "weight": "bold",
-                        "size": "lg",
+                        "size": "4xl",
                         "margin": "lg",
                         "align": "center"
                     },
