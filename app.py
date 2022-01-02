@@ -7,7 +7,10 @@ from linebot import LineBotApi, WebhookParser
 from linebot.exceptions import InvalidSignatureError
 from linebot.models import MessageEvent, TextMessage, TextSendMessage
 
+from transitions.extensions import GraphMachine
+from fsm import TocMachine
 from machine import create_machine
+
 from utils import send_text_message
 
 load_dotenv()
@@ -66,7 +69,7 @@ def webhook_handler():
     app.logger.info(f"Request body: {body}")
 
     create_machine().get_graph().draw("fsm.png", prog="dot", format="png")
-    
+
     # parse webhook body
     try:
         events = parser.parse(body, signature)
