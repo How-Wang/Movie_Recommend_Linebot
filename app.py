@@ -65,6 +65,8 @@ def webhook_handler():
     body = request.get_data(as_text=True)
     app.logger.info(f"Request body: {body}")
 
+    create_machine().get_graph().draw("fsm.png", prog="dot", format="png")
+    
     # parse webhook body
     try:
         events = parser.parse(body, signature)
@@ -83,13 +85,12 @@ def webhook_handler():
         if event.source.user_id not in machines:
             machines[event.source.user_id] = create_machine()
 
-        create_machine().get_graph().draw("fsm.png", prog="dot", format="png")
 
         response = machines[event.source.user_id].advance(event)
         if response == False:
             send_text_message(event.reply_token, "輸入錯誤!")
         
-        create_machine().get_graph().draw("fsm.png", prog="dot", format="png")
+        # create_machine().get_graph().draw("fsm.png", prog="dot", format="png")
         # send_file("fsm.png", mimetype="image/png")
 
     return "OK"
