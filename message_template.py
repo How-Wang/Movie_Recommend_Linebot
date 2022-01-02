@@ -12,7 +12,8 @@ menu = {
                         "text": "歡迎來到 尋影｜電影推薦",
                         "weight": "bold",
                         "align": "center",
-                        "size": "xxl",
+                        "size": "xl",
+                        "wrap": True,
                     }
                 ]
             },
@@ -87,7 +88,7 @@ introduction_message = {
                         "type": "text",
                         "text": "功能介紹",
                         "weight": "bold",
-                        "size": "4xl",
+                        "size": "xxl",
                         "margin": "lg",
                         "align": "center"
                     },
