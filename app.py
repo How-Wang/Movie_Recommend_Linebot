@@ -69,8 +69,6 @@ def webhook_handler():
     body = request.get_data(as_text=True)
     app.logger.info(f"Request body: {body}")
 
-    create_machine().get_graph().draw("fsm.svg", prog="dot") #, format="png"
-
     # parse webhook body
     try:
         events = parser.parse(body, signature)
@@ -98,12 +96,6 @@ def webhook_handler():
         # send_file("fsm.png", mimetype="image/png")
 
     return "OK"
-
-
-# @app.route("/show-fsm", methods=["GET"])
-# def show_fsm():
-#     machine[0].get_graph().draw("fsm.png", prog="dot", format="png")
-#     return send_file("fsm.png", mimetype="image/png")
 
 
 if __name__ == "__main__":
