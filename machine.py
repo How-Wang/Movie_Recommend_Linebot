@@ -82,5 +82,4 @@ def create_machine():
         auto_transitions=False,
         show_conditions=True,
     )
-    machine.get_graph().draw("fsm.png", prog="dot", format="png")
     return machine
